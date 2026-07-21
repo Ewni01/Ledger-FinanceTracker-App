@@ -111,7 +111,7 @@ const SEED_BUDGETS = {
 };
 
 const currency = (n) =>
-  n.toLocaleString("en-US", { style: "currency", currency: "USD", minimumFractionDigits: 2 });
+  n.toLocaleString("en-LKR", { style: "currency", currency: "LKR", minimumFractionDigits: 2 });
 
 const formatDate = (d) =>
   new Date(d + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric" });
